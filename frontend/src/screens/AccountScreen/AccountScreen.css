@@ -1,0 +1,9 @@
+.accountContainer {
+  display: flex;
+  margin: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .accountContainer {
+    flex-direction: column-reverse;
+  }
+}
